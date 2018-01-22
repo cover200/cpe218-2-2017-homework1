@@ -6,4 +6,8 @@ public class Node {
         x = _x;
         left = right = null;
     }
+    @Override
+    public String toString() {
+        return String.valueOf(x);
+    }
 }
